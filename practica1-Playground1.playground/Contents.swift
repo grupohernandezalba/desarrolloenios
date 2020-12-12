@@ -51,5 +51,66 @@ print("El valor del área es: \(area)")
 
 var i:Int = 0; var j:Int = 0
 
-// Limites 
+
+// Tipo entero sin signo
+let minValue = UInt8.min  //  minValue is equal to 0, and is of type UInt8
+let maxValue = UInt8.max  //  maxValue is equal to 255, and is of type UInt8
+var valor:UInt8 = 2
+
+// Literales numericas
+
+let decimalInteger = 17
+let binaryInteger = 0b10001       // 17 in binary notation
+let octalInteger = 0o21           // 17 in octal notation
+let hexadecimalInteger = 0x11
+
+let decimalDouble = 12.1875
+let exponentDouble = 1.21875e1
+let hexadecimalDouble = 0xC.3p0
+
+// Con el guión se mejora la legibilidad del número
+let paddedDouble = 000123.456
+let oneMillion = 1_000_000
+let justOverOneMillion = 1_000_000.000_000_1
+
+//Conversiones
+let valordepi = 3.1416
+let integerPi = Int(valordepi)
+print(integerPi)
+
+// Type Aliases
+  
+typealias AudioSample = UInt16
+var maxAmplitudeFound:AudioSample = AudioSample.max
+print(maxAmplitudeFound)
+
+
+
+//Booleans
+
+let casado = false
+
+if casado {
+    print("Eres una persona feliz")
+} else {
+    print("Eres una persona MUY feliz")
+}
+    
+
+//let k = 1
+//if k {
+//     print("error, ya que no es boolean")
+//}
+
+// Tuples o tuplas en español?
+
+let http404Error = (404, "Not Found")
+let (statusCode, statusMessage) = http404Error
+print("Código: \(statusCode)")
+print("Estatus: \(statusMessage)")
+let mitupla = (1,2,3)
+
+
+// Optionals o variables opcionales
+
 
