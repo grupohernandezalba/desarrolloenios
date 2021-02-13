@@ -48,5 +48,14 @@ else {
 }
 //Closure
 
+//Tipo:Character
+var signoExclamacion:Character = "G"
+signoExclamacion = "¡"
+print(signoExclamacion)
+
+let grupos:[Character] = ["H","O","L","A","!"]
+let gruposCadena = String(grupos)
+print(gruposCadena)
+print(grupos[0])
 
 
