@@ -10,7 +10,7 @@ func evaluar() {
     variableLocal = "Este es un texto de ejemplo"
     print("Global: \(variableGlobal), Local:\(variableLocal)")
 }
-
+  
 print(variableGlobal)
 
 class Heroe {
