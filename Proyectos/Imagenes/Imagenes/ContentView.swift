@@ -19,7 +19,7 @@ struct ContentView: View {
             //Image("logo").resizable().frame(width:330,height: 134)
             //Image("logo").resizable().scaledToFill().scaledToFit()
             Image("logo").resizable().scaledToFill()
-                .scaledToFit().background(Color("alerta"))
+                .scaledToFit()
             Spacer()
             Image("foto").resizable().padding(10).scaledToFill().scaledToFit().background(Color.gray).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).overlay(Circle().stroke(Color.blue)).shadow(color: Color.gray,radius:5)
             Spacer()
