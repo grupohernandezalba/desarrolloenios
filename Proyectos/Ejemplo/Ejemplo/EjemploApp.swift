@@ -1,14 +1,14 @@
 //
-//  ImagenesApp.swift
-//  Imagenes
+//  EjemploApp.swift
+//  Ejemplo
 //
-//  Created by Marco Antonio Hernández Alba on 26/02/21.
+//  Created by Marco Antonio Hernández Alba on 05/03/21.
 //
 
 import SwiftUI
 
 @main
-struct ImagenesApp: App {
+struct EjemploApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView2()

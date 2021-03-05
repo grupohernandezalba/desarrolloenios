@@ -10,23 +10,17 @@ import SwiftUI
 
 
 struct ContentView: View {
-
     var body: some View {
-        VStack {
-            Text("Bienvenido")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                .padding()
-            //Image("logo").resizable().frame(width:330,height: 134)
-            //Image("logo").resizable().scaledToFill().scaledToFit()
-            Image("logo").resizable().scaledToFill()
-                .scaledToFit()
-            Spacer()
-            Image("foto").resizable().padding(10).scaledToFill().scaledToFit().background(Color.gray).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).overlay(Circle().stroke(Color.blue)).shadow(color: Color.gray,radius:5)
-            Spacer()
-            Image(systemName: "moon.circle.fill").resizable().padding(20).scaledToFit().foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-            Text("Todos los derechos reservados").font(.caption).padding()
-        }
-
+        Text("Hola vista 1")
+        Text("2")
+        Text("3")
+        Text("4")
+        Text("5")
+        Text("6")
+        Text("7")
+        Text("8")
+        Text("9")
+        Text("10")
     }
 }
 
