@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  cicloApp
+//  conexionesApp
 //
-//  Created by Marco Antonio Hernández Alba on 10/03/21.
+//  Created by Marco Antonio Hernández Alba on 12/03/21.
 //
 
 import UIKit
