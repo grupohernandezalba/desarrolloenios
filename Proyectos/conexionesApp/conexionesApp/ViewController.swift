@@ -14,15 +14,15 @@ class ViewController: UIViewController {
     
     var objetoEmpleado:Empleado?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         nombreDepartamento.text = "Depto de Sistemas"
+        
     }
-
-
+    
+    
     @IBAction func altaEmpleado(_ sender: UIButton) {
         
         objetoEmpleado = Empleado()
@@ -32,22 +32,25 @@ class ViewController: UIViewController {
         objetoEmpleado?.numeroEmpleado = 1
         objetoEmpleado?.numeroIMSS = 123
         
-        print("Alta empleado")
+        print("Entro a Alta empleado")
     }
     
-    
+
     @IBAction func consultarEmpleado(_ sender: UIButton) {
         
-        //print("\(objetoEmpleado!.nombre)")
+        
+        print("Entro a consultar empleado")
+        print("\(objetoEmpleado!.nombre)")
         
         print("\(objetoEmpleado!.mostrarNombreCompleto())")
-        
         print("\(objetoEmpleado!.mostrarNumero())")
+        
     }
     
     
     @IBAction func verIMSS(_ sender: UIButton) {
-        print("Ver IMSS")
+        print("Entro a ver IMSS")
+        
         print("\(objetoEmpleado!.numeroIMSS)")
     }
     
@@ -55,5 +58,6 @@ class ViewController: UIViewController {
     @IBAction func bajaEmpleado(_ sender: UIButton) {
         print("Baja empleado")
     }
+    
 }
 
