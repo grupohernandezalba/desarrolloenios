@@ -27,10 +27,12 @@ class ViewController: UIViewController {
     
     @objc private func tapSegundoVC(){
         
-        let rootVC = SegundoViewController()
-        let navVC = UINavigationController(rootViewController: rootVC)
+        let segundoVC = SegundoViewController()
+        let navVC = UINavigationController(rootViewController: segundoVC)
         navVC.modalPresentationStyle = .fullScreen
         present(navVC, animated: true)
+
+        
         
     }
 
