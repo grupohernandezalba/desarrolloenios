@@ -1,21 +1,18 @@
 //
 //  EmpleadosViewController.swift
-//  ejemplo5
+//  NavigationController-UITableView
 //
-//  Created by Marco Antonio Hernández Alba on 24/03/21.
+//  Created by Marco Antonio Hernández Alba on 25/03/21.
 //
 
 import UIKit
 
+class EmpleadosViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-class EmpleadosViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
-    @IBOutlet weak var tabla: UITableView!
-    
-    var nombresEmpleados = ["Hugo Pérez","Francisco López","Luis Magaña"]
+    var nombresEmpleados = ["Hugo Pérez", "Francisco López", "Luis Magaña"]
     var edadesEmpleados = [21,22,23]
     
-    var fotosEmpleados: [UIImage] = [
+    var fotosEmpleados:[UIImage] = [
         UIImage(named: "foto1.jpg")!,
         UIImage(named: "foto2.jpg")!,
         UIImage(named: "foto3.jpg")!
@@ -28,13 +25,14 @@ class EmpleadosViewController: UIViewController,UITableViewDelegate,UITableViewD
         // Do any additional setup after loading the view.
     }
     
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nombresEmpleados.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = UITableViewCell(style:UITableViewCell.CellStyle.default, reuseIdentifier: "Celda")
+        
+        let celda = UITableViewCell()
         
         celda.textLabel?.text = nombresEmpleados[indexPath.row]
         
@@ -44,9 +42,9 @@ class EmpleadosViewController: UIViewController,UITableViewDelegate,UITableViewD
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    
-        self.performSegue(withIdentifier: "detalleEmpleadoSegue", sender: indexPath.row)
         
+        self.performSegue(withIdentifier: "detalleEmpleadoSegue", sender: indexPath.row)
+    
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -62,13 +60,10 @@ class EmpleadosViewController: UIViewController,UITableViewDelegate,UITableViewD
             detalleEmpleadoVC.edadRecibida = edadesEmpleados[idSeleccionado]
             
             detalleEmpleadoVC.fotoRecibida = fotosEmpleados[idSeleccionado]
-            
-     
         }
+        
     }
     
-    
-
     /*
     // MARK: - Navigation
 
