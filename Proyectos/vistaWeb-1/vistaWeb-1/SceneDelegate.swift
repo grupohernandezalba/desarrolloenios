@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  vistaWeb-2
+//  vistaWeb-1
 //
 //  Created by Marco Antonio Hernández Alba on 26/03/21.
 //
