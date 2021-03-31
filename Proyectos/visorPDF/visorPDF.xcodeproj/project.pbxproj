@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AC77E45260D8B1900CA6D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77E44260D8B1900CA6D8C /* AppDelegate.swift */; };
-		5AC77E47260D8B1900CA6D8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77E46260D8B1900CA6D8C /* SceneDelegate.swift */; };
-		5AC77E49260D8B1900CA6D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77E48260D8B1900CA6D8C /* ViewController.swift */; };
-		5AC77E4C260D8B1900CA6D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC77E4A260D8B1900CA6D8C /* Main.storyboard */; };
-		5AC77E4E260D8B1B00CA6D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC77E4D260D8B1B00CA6D8C /* Assets.xcassets */; };
-		5AC77E51260D8B1B00CA6D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC77E4F260D8B1B00CA6D8C /* LaunchScreen.storyboard */; };
-		5AC77E5A260D8C4300CA6D8C /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77E59260D8C4300CA6D8C /* webViewController.swift */; };
+		5A96302C26129DDC00D2B817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96302B26129DDC00D2B817 /* AppDelegate.swift */; };
+		5A96302E26129DDC00D2B817 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96302D26129DDC00D2B817 /* SceneDelegate.swift */; };
+		5A96303026129DDC00D2B817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96302F26129DDC00D2B817 /* ViewController.swift */; };
+		5A96303326129DDC00D2B817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A96303126129DDC00D2B817 /* Main.storyboard */; };
+		5A96303526129DE300D2B817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A96303426129DE300D2B817 /* Assets.xcassets */; };
+		5A96303826129DE300D2B817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A96303626129DE300D2B817 /* LaunchScreen.storyboard */; };
+		5A9630412612AFDE00D2B817 /* mostrarPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9630402612AFDE00D2B817 /* mostrarPDFViewController.swift */; };
+		5A9630452614079200D2B817 /* libros in Resources */ = {isa = PBXBuildFile; fileRef = 5A9630442614079200D2B817 /* libros */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5AC77E41260D8B1900CA6D8C /* ejemplo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemplo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AC77E44260D8B1900CA6D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AC77E46260D8B1900CA6D8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AC77E48260D8B1900CA6D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AC77E4B260D8B1900CA6D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5AC77E4D260D8B1B00CA6D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AC77E50260D8B1B00CA6D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5AC77E52260D8B1B00CA6D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AC77E59260D8C4300CA6D8C /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		5A96302826129DDC00D2B817 /* visorPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visorPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A96302B26129DDC00D2B817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A96302D26129DDC00D2B817 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A96302F26129DDC00D2B817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A96303226129DDC00D2B817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A96303426129DE300D2B817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A96303726129DE300D2B817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A96303926129DE300D2B817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9630402612AFDE00D2B817 /* mostrarPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarPDFViewController.swift; sourceTree = "<group>"; };
+		5A9630442614079200D2B817 /* libros */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libros; path = ../../../../libros; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AC77E3E260D8B1900CA6D8C /* Frameworks */ = {
+		5A96302526129DDC00D2B817 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +41,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AC77E38260D8B1900CA6D8C = {
+		5A96301F26129DDB00D2B817 = {
 			isa = PBXGroup;
 			children = (
-				5AC77E43260D8B1900CA6D8C /* ejemplo3 */,
-				5AC77E42260D8B1900CA6D8C /* Products */,
+				5A96302A26129DDC00D2B817 /* visorPDF */,
+				5A96302926129DDC00D2B817 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5AC77E42260D8B1900CA6D8C /* Products */ = {
+		5A96302926129DDC00D2B817 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AC77E41260D8B1900CA6D8C /* ejemplo3.app */,
+				5A96302826129DDC00D2B817 /* visorPDF.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AC77E43260D8B1900CA6D8C /* ejemplo3 */ = {
+		5A96302A26129DDC00D2B817 /* visorPDF */ = {
 			isa = PBXGroup;
 			children = (
-				5AC77E44260D8B1900CA6D8C /* AppDelegate.swift */,
-				5AC77E46260D8B1900CA6D8C /* SceneDelegate.swift */,
-				5AC77E48260D8B1900CA6D8C /* ViewController.swift */,
-				5AC77E59260D8C4300CA6D8C /* webViewController.swift */,
-				5AC77E4A260D8B1900CA6D8C /* Main.storyboard */,
-				5AC77E4D260D8B1B00CA6D8C /* Assets.xcassets */,
-				5AC77E4F260D8B1B00CA6D8C /* LaunchScreen.storyboard */,
-				5AC77E52260D8B1B00CA6D8C /* Info.plist */,
+				5A96302B26129DDC00D2B817 /* AppDelegate.swift */,
+				5A96302D26129DDC00D2B817 /* SceneDelegate.swift */,
+				5A96302F26129DDC00D2B817 /* ViewController.swift */,
+				5A9630402612AFDE00D2B817 /* mostrarPDFViewController.swift */,
+				5A96303126129DDC00D2B817 /* Main.storyboard */,
+				5A96303426129DE300D2B817 /* Assets.xcassets */,
+				5A96303626129DE300D2B817 /* LaunchScreen.storyboard */,
+				5A96303926129DE300D2B817 /* Info.plist */,
+				5A9630442614079200D2B817 /* libros */,
 			);
-			path = ejemplo3;
+			path = visorPDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AC77E40260D8B1900CA6D8C /* ejemplo3 */ = {
+		5A96302726129DDC00D2B817 /* visorPDF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AC77E55260D8B1B00CA6D8C /* Build configuration list for PBXNativeTarget "ejemplo3" */;
+			buildConfigurationList = 5A96303C26129DE300D2B817 /* Build configuration list for PBXNativeTarget "visorPDF" */;
 			buildPhases = (
-				5AC77E3D260D8B1900CA6D8C /* Sources */,
-				5AC77E3E260D8B1900CA6D8C /* Frameworks */,
-				5AC77E3F260D8B1900CA6D8C /* Resources */,
+				5A96302426129DDC00D2B817 /* Sources */,
+				5A96302526129DDC00D2B817 /* Frameworks */,
+				5A96302626129DDC00D2B817 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ejemplo3;
-			productName = ejemplo3;
-			productReference = 5AC77E41260D8B1900CA6D8C /* ejemplo3.app */;
+			name = visorPDF;
+			productName = visorPDF;
+			productReference = 5A96302826129DDC00D2B817 /* visorPDF.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5AC77E39260D8B1900CA6D8C /* Project object */ = {
+		5A96302026129DDB00D2B817 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					5AC77E40260D8B1900CA6D8C = {
+					5A96302726129DDC00D2B817 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 5AC77E3C260D8B1900CA6D8C /* Build configuration list for PBXProject "ejemplo3" */;
+			buildConfigurationList = 5A96302326129DDB00D2B817 /* Build configuration list for PBXProject "visorPDF" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +115,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 5AC77E38260D8B1900CA6D8C;
-			productRefGroup = 5AC77E42260D8B1900CA6D8C /* Products */;
+			mainGroup = 5A96301F26129DDB00D2B817;
+			productRefGroup = 5A96302926129DDC00D2B817 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AC77E40260D8B1900CA6D8C /* ejemplo3 */,
+				5A96302726129DDC00D2B817 /* visorPDF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5AC77E3F260D8B1900CA6D8C /* Resources */ = {
+		5A96302626129DDC00D2B817 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC77E51260D8B1B00CA6D8C /* LaunchScreen.storyboard in Resources */,
-				5AC77E4E260D8B1B00CA6D8C /* Assets.xcassets in Resources */,
-				5AC77E4C260D8B1900CA6D8C /* Main.storyboard in Resources */,
+				5A96303826129DE300D2B817 /* LaunchScreen.storyboard in Resources */,
+				5A9630452614079200D2B817 /* libros in Resources */,
+				5A96303526129DE300D2B817 /* Assets.xcassets in Resources */,
+				5A96303326129DDC00D2B817 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AC77E3D260D8B1900CA6D8C /* Sources */ = {
+		5A96302426129DDC00D2B817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC77E49260D8B1900CA6D8C /* ViewController.swift in Sources */,
-				5AC77E45260D8B1900CA6D8C /* AppDelegate.swift in Sources */,
-				5AC77E47260D8B1900CA6D8C /* SceneDelegate.swift in Sources */,
-				5AC77E5A260D8C4300CA6D8C /* webViewController.swift in Sources */,
+				5A96303026129DDC00D2B817 /* ViewController.swift in Sources */,
+				5A96302C26129DDC00D2B817 /* AppDelegate.swift in Sources */,
+				5A9630412612AFDE00D2B817 /* mostrarPDFViewController.swift in Sources */,
+				5A96302E26129DDC00D2B817 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5AC77E4A260D8B1900CA6D8C /* Main.storyboard */ = {
+		5A96303126129DDC00D2B817 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5AC77E4B260D8B1900CA6D8C /* Base */,
+				5A96303226129DDC00D2B817 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5AC77E4F260D8B1B00CA6D8C /* LaunchScreen.storyboard */ = {
+		5A96303626129DE300D2B817 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5AC77E50260D8B1B00CA6D8C /* Base */,
+				5A96303726129DE300D2B817 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5AC77E53260D8B1B00CA6D8C /* Debug */ = {
+		5A96303A26129DE300D2B817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		5AC77E54260D8B1B00CA6D8C /* Release */ = {
+		5A96303B26129DE300D2B817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,38 +289,38 @@
 			};
 			name = Release;
 		};
-		5AC77E56260D8B1B00CA6D8C /* Debug */ = {
+		5A96303D26129DE300D2B817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CQG9T3VU9;
-				INFOPLIST_FILE = ejemplo3/Info.plist;
+				INFOPLIST_FILE = visorPDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = maha.ejemplo3;
+				PRODUCT_BUNDLE_IDENTIFIER = maha.visorPDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5AC77E57260D8B1B00CA6D8C /* Release */ = {
+		5A96303E26129DE300D2B817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CQG9T3VU9;
-				INFOPLIST_FILE = ejemplo3/Info.plist;
+				INFOPLIST_FILE = visorPDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = maha.ejemplo3;
+				PRODUCT_BUNDLE_IDENTIFIER = maha.visorPDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AC77E3C260D8B1900CA6D8C /* Build configuration list for PBXProject "ejemplo3" */ = {
+		5A96302326129DDB00D2B817 /* Build configuration list for PBXProject "visorPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AC77E53260D8B1B00CA6D8C /* Debug */,
-				5AC77E54260D8B1B00CA6D8C /* Release */,
+				5A96303A26129DE300D2B817 /* Debug */,
+				5A96303B26129DE300D2B817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AC77E55260D8B1B00CA6D8C /* Build configuration list for PBXNativeTarget "ejemplo3" */ = {
+		5A96303C26129DE300D2B817 /* Build configuration list for PBXNativeTarget "visorPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AC77E56260D8B1B00CA6D8C /* Debug */,
-				5AC77E57260D8B1B00CA6D8C /* Release */,
+				5A96303D26129DE300D2B817 /* Debug */,
+				5A96303E26129DE300D2B817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5AC77E39260D8B1900CA6D8C /* Project object */;
+	rootObject = 5A96302026129DDB00D2B817 /* Project object */;
 }
