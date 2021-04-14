@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QHb-hM-wSb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K1l-Zg-2GS">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Repositorio de Libros-->
+        <!--Libros-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="visorPDF" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,62 +16,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iBp-pl-IIt">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="egJ-8n-k46">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celda" id="ldU-ab-6SM">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ldU-ab-6SM" id="hQW-ue-648">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="oU2-9u-gAk"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="tZ1-ui-2io"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="WEw-Xa-x9R"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="4Cx-Zz-a2L"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iBp-pl-IIt" secondAttribute="trailing" id="INH-Kr-m3g"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iBp-pl-IIt" secondAttribute="bottom" id="KUE-Xt-Rd3"/>
-                            <constraint firstItem="iBp-pl-IIt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MRo-84-oN8"/>
-                            <constraint firstItem="iBp-pl-IIt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w2z-0E-8xR"/>
+                            <constraint firstItem="egJ-8n-k46" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="92W-6S-LJt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="egJ-8n-k46" secondAttribute="bottom" id="Rz0-pz-wrG"/>
+                            <constraint firstItem="egJ-8n-k46" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sRz-l0-fKM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="egJ-8n-k46" secondAttribute="trailing" id="zES-NR-fHI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Repositorio de Libros" id="WQD-a0-1bd">
-                        <barButtonItem key="backBarButtonItem" title="Regresar" id="niv-p3-k4i"/>
+                    <navigationItem key="navigationItem" title="Libros" id="oCf-aI-n1J">
+                        <barButtonItem key="backBarButtonItem" title="Regresar" id="32m-Ea-Ghw"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="3kf-lD-fUt" kind="show" identifier="mostrarPDFsegue" id="OYk-BO-fky"/>
+                        <segue destination="rf4-9Z-iic" kind="show" identifier="mostrarPDFsegue" id="7cv-L0-FBs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939.13043478260875" y="83.705357142857139"/>
+            <point key="canvasLocation" x="939.13043478260875" y="88.392857142857139"/>
         </scene>
-        <!--PDF-->
-        <scene sceneID="is2-d5-PXT">
+        <!--Detalle del Libro-->
+        <scene sceneID="p18-XC-vvb">
             <objects>
-                <viewController id="3kf-lD-fUt" customClass="mostrarPDFViewController" customModule="visorPDF" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="PDF" id="otx-75-I8a"/>
+                <viewController id="rf4-9Z-iic" customClass="mostrarPDFViewController" customModule="visorPDF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WRF-4u-69U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BOT-eQ-BTg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detalle del Libro" id="iJK-zV-kB9"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="e1O-Ol-Jes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wA2-a5-Xe6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1868" y="84"/>
+            <point key="canvasLocation" x="1751" y="88"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Y7j-iY-SVO">
+        <scene sceneID="OSX-Mp-8BQ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QHb-hM-wSb" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K1l-Zg-2GS" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VRj-ak-TGk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ygI-qd-6ra">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nz1-yV-yPG"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bvZ-wZ-5pI"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oDY-v8-D5x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I30-06-Rzt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+            <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
         </scene>
     </scenes>
     <resources>

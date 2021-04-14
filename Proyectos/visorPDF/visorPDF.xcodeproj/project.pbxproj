@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A96302C26129DDC00D2B817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96302B26129DDC00D2B817 /* AppDelegate.swift */; };
-		5A96302E26129DDC00D2B817 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96302D26129DDC00D2B817 /* SceneDelegate.swift */; };
-		5A96303026129DDC00D2B817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96302F26129DDC00D2B817 /* ViewController.swift */; };
-		5A96303326129DDC00D2B817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A96303126129DDC00D2B817 /* Main.storyboard */; };
-		5A96303526129DE300D2B817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A96303426129DE300D2B817 /* Assets.xcassets */; };
-		5A96303826129DE300D2B817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A96303626129DE300D2B817 /* LaunchScreen.storyboard */; };
-		5A9630412612AFDE00D2B817 /* mostrarPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9630402612AFDE00D2B817 /* mostrarPDFViewController.swift */; };
-		5A9630452614079200D2B817 /* libros in Resources */ = {isa = PBXBuildFile; fileRef = 5A9630442614079200D2B817 /* libros */; };
+		5AFDF1BE2618DF43005B4899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDF1BD2618DF43005B4899 /* AppDelegate.swift */; };
+		5AFDF1C02618DF43005B4899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDF1BF2618DF43005B4899 /* SceneDelegate.swift */; };
+		5AFDF1C22618DF43005B4899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDF1C12618DF43005B4899 /* ViewController.swift */; };
+		5AFDF1C52618DF43005B4899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFDF1C32618DF43005B4899 /* Main.storyboard */; };
+		5AFDF1C72618DF45005B4899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFDF1C62618DF45005B4899 /* Assets.xcassets */; };
+		5AFDF1CA2618DF45005B4899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFDF1C82618DF45005B4899 /* LaunchScreen.storyboard */; };
+		5AFDF1D32618DF90005B4899 /* libros in Resources */ = {isa = PBXBuildFile; fileRef = 5AFDF1D22618DF90005B4899 /* libros */; };
+		5AFDF1D62618E6D5005B4899 /* mostrarPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDF1D52618E6D5005B4899 /* mostrarPDFViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A96302826129DDC00D2B817 /* visorPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visorPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A96302B26129DDC00D2B817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A96302D26129DDC00D2B817 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A96302F26129DDC00D2B817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A96303226129DDC00D2B817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5A96303426129DE300D2B817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A96303726129DE300D2B817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5A96303926129DE300D2B817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A9630402612AFDE00D2B817 /* mostrarPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarPDFViewController.swift; sourceTree = "<group>"; };
-		5A9630442614079200D2B817 /* libros */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libros; path = ../../../../libros; sourceTree = "<group>"; };
+		5AFDF1BA2618DF43005B4899 /* visorPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visorPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFDF1BD2618DF43005B4899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AFDF1BF2618DF43005B4899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AFDF1C12618DF43005B4899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AFDF1C42618DF43005B4899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AFDF1C62618DF45005B4899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AFDF1C92618DF45005B4899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AFDF1CB2618DF45005B4899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFDF1D22618DF90005B4899 /* libros */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libros; path = ../../../../libros; sourceTree = "<group>"; };
+		5AFDF1D52618E6D5005B4899 /* mostrarPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarPDFViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A96302526129DDC00D2B817 /* Frameworks */ = {
+		5AFDF1B72618DF43005B4899 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,34 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A96301F26129DDB00D2B817 = {
+		5AFDF1B12618DF43005B4899 = {
 			isa = PBXGroup;
 			children = (
-				5A96302A26129DDC00D2B817 /* visorPDF */,
-				5A96302926129DDC00D2B817 /* Products */,
+				5AFDF1BC2618DF43005B4899 /* visorPDF */,
+				5AFDF1BB2618DF43005B4899 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5A96302926129DDC00D2B817 /* Products */ = {
+		5AFDF1BB2618DF43005B4899 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A96302826129DDC00D2B817 /* visorPDF.app */,
+				5AFDF1BA2618DF43005B4899 /* visorPDF.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A96302A26129DDC00D2B817 /* visorPDF */ = {
+		5AFDF1BC2618DF43005B4899 /* visorPDF */ = {
 			isa = PBXGroup;
 			children = (
-				5A96302B26129DDC00D2B817 /* AppDelegate.swift */,
-				5A96302D26129DDC00D2B817 /* SceneDelegate.swift */,
-				5A96302F26129DDC00D2B817 /* ViewController.swift */,
-				5A9630402612AFDE00D2B817 /* mostrarPDFViewController.swift */,
-				5A96303126129DDC00D2B817 /* Main.storyboard */,
-				5A96303426129DE300D2B817 /* Assets.xcassets */,
-				5A96303626129DE300D2B817 /* LaunchScreen.storyboard */,
-				5A96303926129DE300D2B817 /* Info.plist */,
-				5A9630442614079200D2B817 /* libros */,
+				5AFDF1BD2618DF43005B4899 /* AppDelegate.swift */,
+				5AFDF1BF2618DF43005B4899 /* SceneDelegate.swift */,
+				5AFDF1C12618DF43005B4899 /* ViewController.swift */,
+				5AFDF1D52618E6D5005B4899 /* mostrarPDFViewController.swift */,
+				5AFDF1C32618DF43005B4899 /* Main.storyboard */,
+				5AFDF1C62618DF45005B4899 /* Assets.xcassets */,
+				5AFDF1C82618DF45005B4899 /* LaunchScreen.storyboard */,
+				5AFDF1CB2618DF45005B4899 /* Info.plist */,
+				5AFDF1D22618DF90005B4899 /* libros */,
 			);
 			path = visorPDF;
 			sourceTree = "<group>";
@@ -76,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A96302726129DDC00D2B817 /* visorPDF */ = {
+		5AFDF1B92618DF43005B4899 /* visorPDF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A96303C26129DE300D2B817 /* Build configuration list for PBXNativeTarget "visorPDF" */;
+			buildConfigurationList = 5AFDF1CE2618DF45005B4899 /* Build configuration list for PBXNativeTarget "visorPDF" */;
 			buildPhases = (
-				5A96302426129DDC00D2B817 /* Sources */,
-				5A96302526129DDC00D2B817 /* Frameworks */,
-				5A96302626129DDC00D2B817 /* Resources */,
+				5AFDF1B62618DF43005B4899 /* Sources */,
+				5AFDF1B72618DF43005B4899 /* Frameworks */,
+				5AFDF1B82618DF43005B4899 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,24 +90,24 @@
 			);
 			name = visorPDF;
 			productName = visorPDF;
-			productReference = 5A96302826129DDC00D2B817 /* visorPDF.app */;
+			productReference = 5AFDF1BA2618DF43005B4899 /* visorPDF.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5A96302026129DDB00D2B817 /* Project object */ = {
+		5AFDF1B22618DF43005B4899 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					5A96302726129DDC00D2B817 = {
+					5AFDF1B92618DF43005B4899 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 5A96302326129DDB00D2B817 /* Build configuration list for PBXProject "visorPDF" */;
+			buildConfigurationList = 5AFDF1B52618DF43005B4899 /* Build configuration list for PBXProject "visorPDF" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +115,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 5A96301F26129DDB00D2B817;
-			productRefGroup = 5A96302926129DDC00D2B817 /* Products */;
+			mainGroup = 5AFDF1B12618DF43005B4899;
+			productRefGroup = 5AFDF1BB2618DF43005B4899 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A96302726129DDC00D2B817 /* visorPDF */,
+				5AFDF1B92618DF43005B4899 /* visorPDF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A96302626129DDC00D2B817 /* Resources */ = {
+		5AFDF1B82618DF43005B4899 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A96303826129DE300D2B817 /* LaunchScreen.storyboard in Resources */,
-				5A9630452614079200D2B817 /* libros in Resources */,
-				5A96303526129DE300D2B817 /* Assets.xcassets in Resources */,
-				5A96303326129DDC00D2B817 /* Main.storyboard in Resources */,
+				5AFDF1CA2618DF45005B4899 /* LaunchScreen.storyboard in Resources */,
+				5AFDF1D32618DF90005B4899 /* libros in Resources */,
+				5AFDF1C72618DF45005B4899 /* Assets.xcassets in Resources */,
+				5AFDF1C52618DF43005B4899 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A96302426129DDC00D2B817 /* Sources */ = {
+		5AFDF1B62618DF43005B4899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A96303026129DDC00D2B817 /* ViewController.swift in Sources */,
-				5A96302C26129DDC00D2B817 /* AppDelegate.swift in Sources */,
-				5A9630412612AFDE00D2B817 /* mostrarPDFViewController.swift in Sources */,
-				5A96302E26129DDC00D2B817 /* SceneDelegate.swift in Sources */,
+				5AFDF1C22618DF43005B4899 /* ViewController.swift in Sources */,
+				5AFDF1BE2618DF43005B4899 /* AppDelegate.swift in Sources */,
+				5AFDF1D62618E6D5005B4899 /* mostrarPDFViewController.swift in Sources */,
+				5AFDF1C02618DF43005B4899 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5A96303126129DDC00D2B817 /* Main.storyboard */ = {
+		5AFDF1C32618DF43005B4899 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5A96303226129DDC00D2B817 /* Base */,
+				5AFDF1C42618DF43005B4899 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5A96303626129DE300D2B817 /* LaunchScreen.storyboard */ = {
+		5AFDF1C82618DF45005B4899 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5A96303726129DE300D2B817 /* Base */,
+				5AFDF1C92618DF45005B4899 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5A96303A26129DE300D2B817 /* Debug */ = {
+		5AFDF1CC2618DF45005B4899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		5A96303B26129DE300D2B817 /* Release */ = {
+		5AFDF1CD2618DF45005B4899 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +289,7 @@
 			};
 			name = Release;
 		};
-		5A96303D26129DE300D2B817 /* Debug */ = {
+		5AFDF1CF2618DF45005B4899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		5A96303E26129DE300D2B817 /* Release */ = {
+		5AFDF1D02618DF45005B4899 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -330,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A96302326129DDB00D2B817 /* Build configuration list for PBXProject "visorPDF" */ = {
+		5AFDF1B52618DF43005B4899 /* Build configuration list for PBXProject "visorPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A96303A26129DE300D2B817 /* Debug */,
-				5A96303B26129DE300D2B817 /* Release */,
+				5AFDF1CC2618DF45005B4899 /* Debug */,
+				5AFDF1CD2618DF45005B4899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A96303C26129DE300D2B817 /* Build configuration list for PBXNativeTarget "visorPDF" */ = {
+		5AFDF1CE2618DF45005B4899 /* Build configuration list for PBXNativeTarget "visorPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A96303D26129DE300D2B817 /* Debug */,
-				5A96303E26129DE300D2B817 /* Release */,
+				5AFDF1CF2618DF45005B4899 /* Debug */,
+				5AFDF1D02618DF45005B4899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5A96302026129DDB00D2B817 /* Project object */;
+	rootObject = 5AFDF1B22618DF43005B4899 /* Project object */;
 }

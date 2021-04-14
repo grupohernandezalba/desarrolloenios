@@ -2,7 +2,7 @@
 //  mostrarPDFViewController.swift
 //  visorPDF
 //
-//  Created by Marco Antonio Hernández Alba on 29/03/21.
+//  Created by Marco Antonio Hernández Alba on 03/04/21.
 //
 
 import UIKit
@@ -16,7 +16,9 @@ class mostrarPDFViewController: UIViewController, WKNavigationDelegate {
     
     var nombrePDF:String?
     
-    override func loadView() {
+    
+    override func loadView(){
+        
         vistaWeb = WKWebView()
         vistaWeb.navigationDelegate = self
         view = vistaWeb
@@ -25,25 +27,30 @@ class mostrarPDFViewController: UIViewController, WKNavigationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         vistaWeb.allowsBackForwardNavigationGestures = true
         visualizaPDF()
-
-    }
-    
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        title = webView.title
         
     }
     
     func visualizaPDF(){
+        
         let direccionPDF = URL(fileURLWithPath: Bundle.main.path(forResource: nombrePDF!, ofType: "pdf", inDirectory: "libros")!)
         
         let datosPDF = try? Data(contentsOf: direccionPDF)
         
-        vistaWeb.load(datosPDF!, mimeType: "application/pdf", characterEncodingName: "utf-8", baseURL: direccionPDF)
-        
-        
+        vistaWeb.load(datosPDF!, mimeType: "application/pdf",characterEncodingName: "utf-8", baseURL: direccionPDF)
     }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
