@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  jsonFarmacia
 //
-//  Created by Marco Antonio Hernández Alba on 12/04/21.
+//  Created by Marco Antonio Hernández Alba on 15/04/21.
 //
 
 import UIKit
