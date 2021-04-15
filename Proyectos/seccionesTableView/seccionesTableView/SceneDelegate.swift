@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  seccionesTableView
 //
-//  Created by Marco Antonio Hernández Alba on 12/04/21.
+//  Created by Marco Antonio Hernández Alba on 13/04/21.
 //
 
 import UIKit

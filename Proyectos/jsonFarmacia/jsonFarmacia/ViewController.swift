@@ -14,11 +14,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var medicamentos = [Medicamento]()
     
     
-    //var medicamentosTitulos = [String]()
-    
-    var medicamentosTitulos = ["A","B","C","D","E","F"]
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
