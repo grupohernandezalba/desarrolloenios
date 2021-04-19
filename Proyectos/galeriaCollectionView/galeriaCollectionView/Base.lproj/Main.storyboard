@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="guO-hh-a4F">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Galería de Fotos-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="galeriaCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vdq-HV-VpH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YsL-7q-e9q">
+                                    <size key="itemSize" width="414" height="283"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="celda" id="lY3-xm-Ink" customClass="fotosCollectionViewCell" customModule="galeriaCollectionView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="283"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="emp-Dw-Mg1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="283"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6rM-Dt-vGS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="283"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="6rM-Dt-vGS" secondAttribute="bottom" id="0Bc-Lv-Y2j"/>
+                                                <constraint firstItem="6rM-Dt-vGS" firstAttribute="leading" secondItem="emp-Dw-Mg1" secondAttribute="leading" id="QHo-db-jPu"/>
+                                                <constraint firstItem="6rM-Dt-vGS" firstAttribute="top" secondItem="emp-Dw-Mg1" secondAttribute="top" id="bDF-n6-qTy"/>
+                                                <constraint firstAttribute="trailing" secondItem="6rM-Dt-vGS" secondAttribute="trailing" id="nmW-QF-RLt"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="414" height="283"/>
+                                        <connections>
+                                            <outlet property="foto" destination="6rM-Dt-vGS" id="gU2-jl-bq2"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vdq-HV-VpH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="I8E-5d-aXr"/>
+                            <constraint firstItem="vdq-HV-VpH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OBc-kV-DqH"/>
+                            <constraint firstItem="vdq-HV-VpH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qga-66-hQY"/>
+                            <constraint firstAttribute="bottom" secondItem="vdq-HV-VpH" secondAttribute="bottom" id="f4X-1P-lyZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Galería de Fotos" id="lVH-gc-8sz"/>
+                    <connections>
+                        <outlet property="fotos" destination="vdq-HV-VpH" id="2Sy-Nx-fut"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.13043478260875" y="83.705357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6gG-oP-aCq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="guO-hh-a4F" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lzf-Iv-9qt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ixN-bi-31P"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Pd-p7-OuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
