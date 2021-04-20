@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  galeriaCollectionView
+//  galeriaJsonCollectionView
 //
 //  Created by Marco Antonio Hernández Alba on 19/04/21.
 //
