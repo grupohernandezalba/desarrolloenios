@@ -1,34 +1,34 @@
 //
 //  ViewController.swift
-//  galeriaCollectionView
+//  galeriaJsonCollectionView
 //
-//  Created by Marco Antonio Hernández Alba on 19/04/21.
+//  Created by Marco Antonio Hernández Alba on 20/04/21.
 //
 
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
+
     @IBOutlet weak var fotos: UICollectionView!
     
     var fotografias = [Fotografia]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         obtieneJSON {
             print("OK")
-            
             self.fotos.reloadData()
-            
         }
         
         fotos.delegate = self
         fotos.dataSource = self
         
         
-
+        
     }
+    
     
     func obtieneJSON(completed: @escaping () -> ()){
         
@@ -56,7 +56,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     
-
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return fotografias.count
     }
@@ -64,35 +65,30 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let celda = collectionView.dequeueReusableCell(withReuseIdentifier: "celda", for: indexPath) as! fotosCollectionViewCell
- 
         
         let url = URL(string: fotografias[indexPath.row].urls["small"]!)
         
         let data = try? Data(contentsOf: url!)
         
-        celda.foto.image = UIImage(data: data!)!
-        
+        celda.foto.image = UIImage(data: data!)
         
         return celda
+        
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
+    
         let pantalla = UIScreen.main.bounds
         
         return CGSize(width: pantalla.width, height: pantalla.height)
-        
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0.0
-        
     }
- 
- 
+    
 
 
 }
-
 

@@ -2,7 +2,7 @@
 //  fotosCollectionViewCell.swift
 //  galeriaJsonCollectionView
 //
-//  Created by Marco Antonio Hernández Alba on 19/04/21.
+//  Created by Marco Antonio Hernández Alba on 20/04/21.
 //
 
 import UIKit

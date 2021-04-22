@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  galeriaJsonCollectionView
+//  ejemplo
 //
 //  Created by Marco Antonio Hernández Alba on 20/04/21.
 //
