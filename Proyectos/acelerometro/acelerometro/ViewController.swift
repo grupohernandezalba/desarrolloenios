@@ -2,14 +2,15 @@
 //  ViewController.swift
 //  acelerometro
 //
-//  Created by Marco Antonio Hernández Alba on 01/05/21.
+//  Created by Marco Antonio Hernández Alba on 04/05/21.
 //
 
 import UIKit
+
 import CoreMotion
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var ejeX: UILabel!
     
@@ -21,30 +22,27 @@ class ViewController: UIViewController {
     
     var motion = CMMotionManager()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if motion.isDeviceMotionAvailable {
-            print("Si esta disponible el Acelerómetro")
+            print("Si esta disponible el acelerómetro")
             obtieneAcelerometro()
         }
         else {
-            print("NO esta disponible el Acelerómetro")
+            print("No esta disponible el acelerómetro")
         }
-        
         
     }
     
     func obtieneAcelerometro() {
         
-        print("entro")
         motion.accelerometerUpdateInterval = 0.5
-        motion.startAccelerometerUpdates(to: OperationQueue.current!){ (data, error) in
-            
-            print(data as Any)
+        
+        motion.startAccelerometerUpdates(to: OperationQueue.current!) { (data, error) in
             
             if let datos = data {
+                
                 self.view.reloadInputViews()
                 
                 let x = datos.acceleration.x
@@ -54,8 +52,6 @@ class ViewController: UIViewController {
                 self.ejeX.text = "x: \(Double(x))"
                 self.ejeY.text = "y: \(Double(y))"
                 self.ejeZ.text = "z: \(Double(z))"
-                
-                
                 
             }
             

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  acelerometro
+//  mapa
 //
-//  Created by Marco Antonio Hernández Alba on 04/05/21.
+//  Created by Marco Antonio Hernández Alba on 05/05/21.
 //
 
 import UIKit
